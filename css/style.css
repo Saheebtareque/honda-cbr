@@ -1,121 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-body{
+body
+{
     font-family: 'Poppins', sans-serif;
+    
 }
 
-header p{
+header p
+{
     
     color: #E0E0E0;
     font-weight: 300;
 
 }
 
-header h1{
+header h1
+{
     font-weight: 600;
 }
 
-.bg-header{
-background-color:  #264653;
+.bg-header
+{
+    background-color:  #264653;
 
 }
 
-.btn-custom{
+.btn-custom
+{
     background-color: rgb(231, 111, 81);
+
 }
 
-header img{
+header img
+{
     width: 552px;
     height: 447px;
 
 }
+ /* feataure section  */
 
-main h1{
+ .featured
+ {
+     margin-top:90px;
+
+ }
+
+ main h1
+ {
     color:#000000;
     font-weight: 600;
 
 }
 
-main p {
-
+.featured p 
+{
     color: #E76F51;
     font-weight: 600;
+
 }
 
-.feature-img
+ .feature-img
 {
-width: 288px;
-height: 243px;
+    width: 288px;
+    height: 243px;
+
 }
 
-.edited{
+.edited
+{
     filter:grayscale(85%);
+
+}
+
+/* latest news  */
+
+.latest 
+{
+    margin-top: 130px;
+}
+
+.latest h1
+{
+    margin-bottom: 47px;
 
 }
 .edited-card
 {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+
 }
-.card-body h4{
+
+.card-body h4
+{
     color: #18191F;
     font-weight: 600;
 
 }
-.card-body p{
+
+.card-body p
+{
     color: #6C6C6C;
 
     font-weight: 400;;
 }
 
-.btn-main{
+.btn-main
+{
     font-weight: 500;
     color:#E76F51;
     border: 1px solid #E76F51;
     border-radius: 5px; ;
 }
 
-.btn-main:hover{
+.btn-main:hover
+{
     background-color: #E76F51;
     color:white;
 }
 
-h1 span{
+/* client review  */
+ .review
+ {
+     margin-top: 160px;;
+ }
+
+ .review h1
+ {
+     margin-bottom: 52px;
+ }
+
+h1 span
+{
     color:#E76F51;
 }
 
-.review img{
-width: 149px;
-height: 149px;
+.review img
+{
+    width: 149px;
+    height: 149px;
 }
 
-.review p{
+.review p
+{
     color: #6C6C6C;
     font-weight: 500;
 
 }
 
-.fa-star.filled{
+.fa-star.filled
+{
     color:#E76F51;
 }
 
-.fa-star.blank{
+.fa-star.blank
+{
     color:#E76F51;
 
 }
 
-.review h6{
+.review h6
+{
     font-weight: 600;
 }
-.blue{
-  color: #23A6F0;
-  }
+
+.blue
+{
+    color: #23A6F0;
+}
 
   /* FAQS style  */
-.FAQS img{
- height: 397.5px;
-width: 424.8000183105469px;
 
+  .FAQS
+{
+    margin-top:158.99px;
+    margin-bottom:139px; ;
+}
+  .FAQS h1
+{
 
+    margin-bottom:112px;
 
 }
+
+.FAQS img
+{
+    height: 397.5px;
+    width: 424.8000183105469px;
+
+}
+
+.FAQS h5
+{
+    color: #383838; 
+    font-weight:500;
+
+}
+
+
+.FAQS p
+{
+    color: #7E848C;
+
+}
+
+
+
 
